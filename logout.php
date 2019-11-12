@@ -11,6 +11,7 @@ if(isset($BackToMyPage)) {
     header('Location: '.$BackToMyPage);
 } else {
     header('Location: index.php'); // default page
+    //This isnt working
 }
    
 
