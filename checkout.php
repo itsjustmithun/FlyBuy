@@ -101,7 +101,11 @@ span.price {
   }
 }
 </style>
-
+<script>
+		function showMessage(){
+			alert("Your order has been placed");
+		}
+</script>
 					
 <section class="section">       
 	<div class="container-fluid">
@@ -202,7 +206,7 @@ span.price {
 				<input type="hidden" name="total_count" value="'.$total_count.'">
 					<input type="hidden" name="total_price" value="'.$total.'">
 					
-					<input type="submit" id="submit" value="Continue to checkout" class="checkout-btn">
+					<input type="submit" id="submit" value="Continue to checkout" class="checkout-btn" onClick="showMessage()">
 				</form>
 				</div>
 			</div>
